@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".class_2_listening">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="सुनना (Listening)"
+                android:textSize="36sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nरीडिंग मेंटर 2 मिनट बच्चों से बातचीत करे कि आपके आस - पास (अंदर/बाहर) कोन कोन सी चीजें है। बच्चों के जवाब सुने। सभी। को बोलने के लिए प्रोत्साहित करें। इसके बाद नीचे दिए गए निर्देशों अनुसार क्रियाकलाप करवाएं। \n \n   \u2022 बच्चो 2 मिनट के लिए आस - पास (अंदर/बाहर) की वस्तुएं देखो। \n \n   \u2022 10 - 15 मिनट में देखी गई 2 वस्तुओं। के चित्र पेपर पर बनाओ। \n \n   \u2022 चित्रों को निर्धारित स्थान पर रखो। \n"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="तैयारी"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n
+\u2022 पेपर, पेंसिल की व्यवस्था करे।
+\n \n \u2022 चित्रों के प्रदर्शन के लिए बच्चों की पहुंच में स्थान निर्धारित करे और उन्हें बताएं।\n
+"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ध्यान रखें"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n \u2022 बच्चो को पेपर पर नाम लिखने को कहे, जो न लिख पाए, उसकी मदद करें।
+\n \n \u2022 निर्धारित समय - सीमा में ही क्रियाकलाप को समाप्त करें।
+\n \n \u2022 कक्षा के बाहर की वस्तुएं देखते समय अन्य कक्षाओं के संचालन में बाधा न हो, ताथा बच्चे पहुंच से दूर न जाए।
+\n \n \u2022 आंकलन करते समय बच्चो द्वारा बनाए गए चित्रों पर ध्यान न देकर, यह देखे कि निर्देशानुसार कार्य किया या नहीं।
+\n"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/next_to_marking_Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="go to marking" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

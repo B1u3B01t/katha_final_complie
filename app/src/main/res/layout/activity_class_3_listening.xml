@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".class_3_listening">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="सुनना (Listening)
+" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nरीडिंग  मेंटर बच्चों के साथ बातचीत की शुरआत ऐसे करे - की उन्होंने पिछली कक्षा में कोन- कोन सी कहानी पढ़ी है? कोन सी कहानी ‘भालू ने खेली फुटबॉल’ उचित गति तथा हाव- भाव के साथ सुनाए।\n" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="भालू ने खेली फुटबॉल
+" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nशर्दी के मौसम में शेर का बच्चा जामुन के पेड़ के नीचे सिमटकर गोल - मटोल बनकर सोया हुआ था। वहां से भालू सेर। के लिए निकल रहा था उसकी नजर इस गोल - मटोल चीज पर पड़ी । अहा फुटबॉल । यह सोचकर भालू ने पैर शेर के बच्चे को उछाल दिया। हड़बड़ी में शेर का बच्चा दहाड़ा और पेड़ की डाल पकड़ी, लेकिन वह टूट गई । भालू ने फुर्ती से दोनों हाथ बढ़ाकर लपक लिया। शेर के बच्चे ने भालू को बार - बार उछालने के लिए कहा। एक बार… दो बार.. तीन बार… बार - बार यही होने लगा। भालू थककर परेशान हो गया और घर कि ओर दौड़ लगाई। तभी माली आया और शेर के बच्चे एर बरस पड़ा - तुमने पेड़ की डाल तोड़ दी। लाओ हर्जाना । यह सुनते ही शेर का बच्चा वहां से नौ दो ग्यारह हो गया।
+\n" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="तैयारी" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n \u2022 कहानी पर आधारित चित्र असेसमेंट शीट की व्यवस्था करके रखे:
+\n" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ध्यान रखें - " />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\n \u2022 बच्चों को समझाएं, कि कहानी में पहले क्या हुआ, फिर उसके बाद क्या हुआ आदि के आधार पर चित्रों पर 1 से 6 सही क्रम में नंबर लिखे।
+\n \n \u2022 बच्चों को अपनी असेसमेंट शीट पर नाम लिखने को कहे, जो न लिख पाए तो उसकी मदद करे।
+\n \n \u2022 निर्धारित समय - सीमा में ही क्रियाकलाप को समाप्त करे।
+\n" />
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
